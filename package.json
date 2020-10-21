@@ -15,7 +15,7 @@
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "lint": "eslint \"**/*.{ts,tsx}\" \"*.config.js\"",
+    "lint": "eslint \"src/*.{ts,tsx}\" \"*.config.js\"",
     "type-check": "tsc --noEmit",
     "test": "npm run type-check && npm run lint"
   },
