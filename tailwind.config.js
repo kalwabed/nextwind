@@ -5,6 +5,9 @@ module.exports = {
   },
   purge: ['./src/**/*.tsx'],
   theme: {
+    fontFamily: {
+      inter: ['Inter']
+    },
     extend: {}
   },
   variants: {},
