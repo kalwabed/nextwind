@@ -1,4 +1,6 @@
+const siteConfig = require('./site-config')
+
 module.exports = {
-  siteUrl: 'your-site.com',
+  siteUrl: siteConfig.default.url,
   generateRobotsTxt: true
 }

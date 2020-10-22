@@ -1,0 +1,43 @@
+.wrapper {
+  @apply text-gray-700;
+}
+
+.contentWrapper {
+  @apply mx-auto flex px-5 py-24 items-center justify-center flex-col;
+}
+
+.content {
+  @apply text-center w-full;
+}
+
+.title {
+  @apply text-4xl mb-4 font-medium text-gray-900;
+}
+
+.subtitle {
+  @apply leading-relaxed mb-8;
+}
+
+.documentation {
+  @apply inline-flex text-white bg-teal-500 border-0 py-2 px-6 rounded text-lg transition-colors ease-out duration-75;
+}
+
+.documentation:focus {
+  @apply outline-none;
+}
+
+.documentation:hover {
+  @apply bg-gray-600;
+}
+
+@screen md {
+  .title {
+    @apply text-3xl;
+  }
+}
+
+@screen lg {
+  .content {
+    @apply w-2/3;
+  }
+}
