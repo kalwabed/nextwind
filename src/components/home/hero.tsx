@@ -8,7 +8,7 @@ const Hero = () => (
         <h1 className={styled.title}>{siteConfig.title}</h1>
         <p className={styled.subtitle}>{siteConfig.description}</p>
         <div className="flex justify-center">
-          <button className={styled.documentation} type="button">
+          <button className={styled.btnDocumentation} type="button">
             <a href="https://github.com/kaliwa/nextwind">Documentation</a>
           </button>
         </div>

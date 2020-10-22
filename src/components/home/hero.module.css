@@ -18,16 +18,16 @@
   @apply leading-relaxed mb-8;
 }
 
-.documentation {
+.btnDocumentation {
   @apply inline-flex text-white bg-teal-500 border-0 py-2 px-6 rounded text-lg transition-colors ease-out duration-75;
 }
 
-.documentation:focus {
+.btnDocumentation:focus {
   @apply outline-none;
 }
 
-.documentation:hover {
-  @apply bg-gray-600;
+.btnDocumentation:hover {
+  @apply bg-gray-600 shadow-xl;
 }
 
 @screen md {

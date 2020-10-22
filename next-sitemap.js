@@ -1,6 +1,4 @@
-const siteConfig = require('./site-config')
-
 module.exports = {
-  siteUrl: siteConfig.default.url,
+  siteUrl: 'https://nextwind.vercel.app',
   generateRobotsTxt: true
 }
