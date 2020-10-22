@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="app">
       <Layout>
-        <NextSeo title="| home" />
+        <NextSeo title="| Home" />
         <Hero />
       </Layout>
     </div>
