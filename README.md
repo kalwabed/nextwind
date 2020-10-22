@@ -2,15 +2,12 @@
 
 > Next.js + Typescript + Tailwindcss starter template.
 
-> Lihat versi bahasa Indonesia [disini](https://github.com/kaliwa/nextwind/blob/main/README-id.md)
-
 This is an example setup of Next.js building on top of the [official TypeScript example](https://github.com/vercel/next.js/tree/canary/examples/with-typescript) and [official Tailwindcss example](https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss). It adds the following:
 - [x] Basic Eslint, Stylelint, and Prettier setup
 - [x] Tailwind and Typescript config
 - [x] Easy styling structure using Tailwind with CSS Module
 - [x] SEO ready
 - [x] [NProgress](https://www.npmjs.com/package/nprogress) setup
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -42,6 +39,10 @@ yarn dev
 # run test (lint+type check)
 yarn test
 ```
+
+Deploy the starter template using [Vercel](https://vercel.com):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/kaliwa/nextwind)
 
 <!-- CONTRIBUTING -->
 ## Contributing
