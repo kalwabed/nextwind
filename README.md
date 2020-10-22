@@ -1,4 +1,4 @@
-# Nextwind ![GitHub](https://img.shields.io/github/license/kaliwa/nextwind?style=flat-square) ![Website](https://img.shields.io/website?down_color=red&down_message=offline&style=flat-square&up_color=teal&up_message=online&url=https%3A%2F%2Fnextwind.vercel.app) ![Coveralls github](https://img.shields.io/coveralls/github/kaliwa/nextwind?style=flat-square)
+# Nextwind ![Website](https://img.shields.io/website?down_color=red&down_message=offline&style=flat-square&up_color=teal&up_message=online&url=https%3A%2F%2Fnextwind.vercel.app)
 
 > Next.js + Typescript + Tailwindcss starter template.
 
