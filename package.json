@@ -1,5 +1,6 @@
 {
   "name": "nextwind",
+  "description": "Nextjs, Typescript, Tailwindcss template.",
   "version": "1.0.0",
   "author": {
     "email": "kalwabedrzk@pm.me",
