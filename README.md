@@ -49,10 +49,9 @@ Deploy the starter template using [Vercel](https://vercel.com):
 
 Contributions are welcome. Please open a pull request if you think something is missing or you would like to add something.
 1. Fork the Project
-2. Create your feature branch (`git checkout -b your-name/your-feature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin your-name/your-feature`)
-5. Open a Pull Request
+2. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Push to the Branch (`git push origin your-name/your-feature`)
+4. Open a Pull Request
 
 <!-- LICENSE -->
 ## License
