@@ -30,7 +30,7 @@ const Header = () => (
         className="inline-flex items-center bg-gray-700 border-0 py-1 px-3 focus:outline-none hover:bg-teal-500 rounded text-base mt-4 md:mt-0 transition-colors duration-75 ease-out"
         type="button"
       >
-        <a href="https://github.com/kaliwa/nextwind">Github</a>
+        <a href="https://github.com/kalwabed/nextwind">Github</a>
       </button>
     </div>
   </header>
