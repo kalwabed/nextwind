@@ -2,6 +2,8 @@
 
 > Next.js + Typescript + Tailwindcss starter template.
 
+> NEW! [twin.macro](https://github.com/ben-rogerson/twin.macro) + Emotion edition in [twin-macro branch](https://github.com/kalwabed/nextwind/tree/twin-macro)
+
 This is an example setup of Next.js building on top of the [official TypeScript example](https://github.com/vercel/next.js/tree/canary/examples/with-typescript) and [official Tailwindcss example](https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss). It adds the following:
 - [x] Basic Eslint, Stylelint, and Prettier setup
 - [x] Tailwind and Typescript config
