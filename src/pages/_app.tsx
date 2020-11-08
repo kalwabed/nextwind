@@ -1,9 +1,10 @@
-import '@/styles/tailwind.css'
 import '@/styles/nprogress.css'
 import type { AppProps } from 'next/app'
 import { DefaultSeo } from 'next-seo'
 import Router from 'next/router'
 import NProgress from 'nprogress'
+import { GlobalStyles } from 'twin.macro'
+import React from 'react'
 
 import siteConfig from 'site-config'
 
@@ -15,6 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const { description, title, url } = siteConfig
   return (
     <>
+      <GlobalStyles />
       <DefaultSeo
         titleTemplate={`${title} %s`}
         description={description}
