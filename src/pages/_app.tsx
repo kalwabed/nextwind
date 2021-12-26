@@ -1,15 +1,9 @@
-import '@/styles/tailwind.css'
-import '@/styles/nprogress.css'
-import type { AppProps } from 'next/app'
+import '~styles/tailwind.css'
 import { DefaultSeo } from 'next-seo'
-import Router from 'next/router'
-import NProgress from 'nprogress'
+import { AppProps } from 'next/app'
 
 import siteConfig from 'site-config'
-
-Router.events.on('routeChangeStart', () => NProgress.start())
-Router.events.on('routeChangeComplete', () => NProgress.done())
-Router.events.on('routeChangeError', () => NProgress.done())
+import Page from '~components/layout/page'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { description, title, url } = siteConfig
@@ -27,7 +21,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           description
         }}
       />
-      <Component {...pageProps} />
+
+      <Page>
+        <Component {...pageProps} />
+      </Page>
     </>
   )
 }

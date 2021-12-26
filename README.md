@@ -2,55 +2,49 @@
 
 > Next.js + Typescript + Tailwindcss starter template.
 
-> NEW! [twin.macro](https://github.com/ben-rogerson/twin.macro) + Emotion edition in [twin-macro branch](https://github.com/kalwabed/nextwind/tree/twin-macro)
-
 This is an example setup of Next.js building on top of the [official TypeScript example](https://github.com/vercel/next.js/tree/canary/examples/with-typescript) and [official Tailwindcss example](https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss). It adds the following:
-- [x] Basic Eslint, Stylelint, and Prettier setup
+- [x] Basic Eslint (Nextjs built in), and Prettier setup
 - [x] Tailwind and Typescript config
-- [x] Easy styling structure using Tailwind with CSS Module
 - [x] SEO ready
-- [x] [NProgress](https://www.npmjs.com/package/nprogress) setup
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Prerequisites
-A nodejs >=10 setup with [yarn](https://yarnpkg.com) is recommended.
-
 ### Installation
 Quickstart, is just use the ``Use this template`` feature from the Github.
 
-... or you can 
+... or you can
 
+First, clone the repository:
 ```bash
-# clone the repo
-git clone https://github.com/kaliwa/nextwind.git my-next-app
-
-# open the folder
-cd my-next-app
-
-# install dependencies
-yarn
-
-#...or if you'd like to use npm instead
-npm i
-
-# serve with hot reload at localhost:3000
-yarn dev
-
-# run test (lint+type check)
-yarn test
+git clone https://github.com/kalwabed/nextwind.git my-next-app
 ```
 
-Deploy the starter template using [Vercel](https://vercel.com):
+or if you're cloning using SSH:
+```bash
+git clone git@github.com:kalwabed/nextwind.git my-next-app
+```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/kaliwa/nextwind)
+Then go to the directory
+```bash
+cd my-next-app
+```
+
+Finally, run the development server to start developing.
+```bash
+yarn dev
+```
+
+### Deploy
+You can deploy the starter template using [Vercel](https://vercel.com):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/kalwabed/nextwind)
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are welcome. Please open a pull request if you think something is missing or you would like to add something.
-1. Fork the Project
+1. Fork this Project
 2. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 3. Push to the Branch (`git push origin your-name/your-feature`)
 4. Open a Pull Request
