@@ -19,7 +19,6 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.4",
-    "@types/nprogress": "^0.2.0",
     "@types/react": "^17.0.38",
     "autoprefixer": "^10.4.0",
     "next-sitemap": "^1.6.203",
